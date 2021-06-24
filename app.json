@@ -1,0 +1,29 @@
+{
+  "buildpacks": [
+    {
+      "url": "heroku/go"
+    }
+  ],
+  "env": {
+    "AWS_ACCESS_KEY_ID": {
+      "value": "AKIA5QACHXFELK4IVI26"
+    },
+    "AWS_SECRET_ACCESS_KEY": {
+      "value": "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"
+    },
+    "AWS_REGION": {
+      "value": "us-east-1"
+    },
+    "FCM_API_KEY": {
+      "value": "AAAAxZpGrIU:APA91bFjZWce9Eq2hh9fXsi4sxZIfZ5k2Q90QxnIoe5qjdsrULPBMU2DS7izDqDo8NdJLVoEFTE8iSzrAwhBW9K-qjJGin7vMlmqksAqppmJJxlmydvvgQQxyrbIQqRTF3xiBijkwmXx"
+    }
+  },
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "make test-ci"
+      },
+      "addons": ["heroku-postgresql"]
+    }
+  }
+}

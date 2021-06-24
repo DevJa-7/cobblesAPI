@@ -1,0 +1,7 @@
+tmp/
+.DS_Store
+
+vendor/*/
+
+# run.sh to hold environment variables & fresh reloader commands 
+run.sh

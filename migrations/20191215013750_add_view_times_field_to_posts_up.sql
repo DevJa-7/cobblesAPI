@@ -1,0 +1,1 @@
+ALTER TABLE public.posts ADD view_times int8 NULL DEFAULT 0;

@@ -1,0 +1,1 @@
+ALTER TABLE public.users ADD fcm_token text NULL;

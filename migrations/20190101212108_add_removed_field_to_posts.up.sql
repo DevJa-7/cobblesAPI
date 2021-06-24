@@ -1,0 +1,1 @@
+alter table posts add removed bool default false not null;
